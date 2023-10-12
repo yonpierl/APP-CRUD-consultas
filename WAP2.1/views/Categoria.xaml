@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:syncfusion="clr-namespace:Syncfusion.Maui.DataGrid;assembly=Syncfusion.Maui.DataGrid"
+             x:Class="WAP2._1.views.Categoria"
+             xmlns:model="clr-namespace:wap2.data.models.Modules.Products;assembly=wap2.data.models"
+             xmlns:local="clr-namespace:WAP2._1"
+             xmlns:views="clr-namespace:WAP2._1.views"
+             xmlns:ViewModel="clr-namespace:WAP2._1.ViewModel.category"
+             Title="Categoria">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Agregar" Command="{Binding OnAddCategoriaCommand}"/>
+    </ContentPage.ToolbarItems>
+    <VerticalStackLayout HorizontalOptions="Center">
+        <StackLayout>
+            <CollectionView  ItemsSource="{Binding Category}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Category" >
+                        <Frame Padding="5" Margin="10">
+                            <StackLayout >
+
+                                <Grid Padding="20" >
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="50"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition x:Name="Column1" Width="200"/>
+                                        <ColumnDefinition x:Name="Column2" Width="200"/>
+                                        <ColumnDefinition x:Name="Column3" Width="70"/>
+                                        <ColumnDefinition x:Name="Column4" Width="70"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Label Grid.Column="0" Text="{Binding Name}" FontAttributes="Bold" FontSize="Large" />
+                                    <Label Grid.Column="1" Text="{Binding Description}" FontSize="Large"/>
+                                    <ImageButton Grid.Column="2" 
+                                             Source="delete.png" HeightRequest="50" 
+                                             Command="{Binding Source={RelativeSource AncestorType={x:Type views:Categoria}}, Path=DeleteCommand}" 
+                                             CommandParameter="{Binding .}"/>
+                                    <ImageButton Grid.Column="3" 
+                                             Source="edit.png" 
+                                             HeightRequest="50" 
+                                             Command="{Binding Source={RelativeSource AncestorType={x:Type views:Categoria}}, Path=EditCommand}" 
+                                             CommandParameter="{Binding .}"/>
+                                </Grid>
+                            </StackLayout>
+                        </Frame>
+                       
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Button
+                WidthRequest="150"
+                Text="Recargar Datos"
+                Command="{Binding ReloadCommand}"
+                />
+        </StackLayout>
+
+       
+    </VerticalStackLayout>
+
+</ContentPage>

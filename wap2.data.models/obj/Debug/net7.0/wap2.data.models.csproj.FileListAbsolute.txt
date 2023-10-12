@@ -1,0 +1,15 @@
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\bin\Debug\net7.0\wap2.data.models.deps.json
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\bin\Debug\net7.0\wap2.data.models.dll
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\bin\Debug\net7.0\wap2.data.models.pdb
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\bin\Debug\net7.0\intCoders.data.common.dll
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\bin\Debug\net7.0\intCoders.data.common.pdb
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\wap2.data.models.csproj.AssemblyReference.cache
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\wap2.data.models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\wap2.data.models.AssemblyInfoInputs.cache
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\wap2.data.models.AssemblyInfo.cs
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\wap2.data.models.csproj.CoreCompileInputs.cache
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\wap2.data.models.csproj.CopyComplete
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\wap2.data.models.dll
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\refint\wap2.data.models.dll
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\wap2.data.models.pdb
+C:\Users\jarauz\source\repos\WAP2.0\wap2.data.models\obj\Debug\net7.0\ref\wap2.data.models.dll

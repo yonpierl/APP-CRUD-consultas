@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WAP2._1.views.AddSegment"
+             xmlns:local="clr-namespace:WAP2._1"
+             xmlns:model="clr-namespace:wap2.data.models.Modules.Products;assembly=wap2.data.models"
+             Title="nuevo Segment">
+    <StackLayout>
+
+        <VerticalStackLayout Spacing="5" Padding="15" Margin="10">
+            <Label Text="Nombre" FontSize="Medium" IsEnabled="False"/>
+            <Entry Text="{Binding Segment.Name, Mode=TwoWay}" FontSize="Medium" IsEnabled="True" x:Name="nombre"/>
+            <BoxView HeightRequest="0.5" Color="Gray"/>
+        </VerticalStackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Guardar" Command="{Binding GuardarSegmentCommand}" HorizontalOptions="FillAndExpand"/>
+            <Button Text="Cancelar" BackgroundColor="#DF5252" Command="{Binding CancelarCommand}" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

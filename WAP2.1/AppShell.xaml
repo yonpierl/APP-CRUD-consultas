@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="WAP2._1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:WAP2._1"
+    xmlns:views="clr-namespace:WAP2._1.views"
+    Shell.TabBarIsVisible="False">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:LoginPage}"
+        Route="LoginPage"
+        Shell.FlyoutBehavior="Disabled"/>
+    <FlyoutItem Route="HomePage" FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Home" Icon="{x:Static local:icons.Home}" ContentTemplate="{DataTemplate views:HomePage }"/>
+        
+       
+    </FlyoutItem>
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Categoria" Icon="{x:Static local:icons.Categoria}" ContentTemplate="{DataTemplate views:Categoria}"/>
+        <ShellContent Title="Segments" ContentTemplate="{DataTemplate views:Segmento}"/>
+    </FlyoutItem>
+</Shell>

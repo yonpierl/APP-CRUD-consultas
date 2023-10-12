@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>wap2.data.sqlite</name>
+    </assembly>
+    <members>
+        <member name="T:wap2.data.sqlite.Migrations.Users">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.Users.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.Users.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.Users.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:wap2.data.sqlite.Migrations.UserRoles">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.UserRoles.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.UserRoles.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.UserRoles.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:wap2.data.sqlite.Migrations.Permissions">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.Permissions.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.Permissions.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.Permissions.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:wap2.data.sqlite.Migrations.Categories">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.Categories.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.Categories.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.Categories.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:wap2.data.sqlite.Migrations.othermodels">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.othermodels.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.othermodels.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.othermodels.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:wap2.data.sqlite.Migrations.adddescription">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.adddescription.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.adddescription.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:wap2.data.sqlite.Migrations.adddescription.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

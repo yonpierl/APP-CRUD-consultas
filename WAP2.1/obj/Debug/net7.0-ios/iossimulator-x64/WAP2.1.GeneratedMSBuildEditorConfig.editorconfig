@@ -1,0 +1,77 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = WAP2._1
+build_property.ProjectDir = C:\Users\jarauz\source\repos\WAP2.1\WAP2.1\
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/views/AddCategoria.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.views.AddCategoria.xaml
+build_metadata.AdditionalFiles.TargetPath = views\AddCategoria.xaml
+build_metadata.AdditionalFiles.RelativePath = views\AddCategoria.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/views/AddSegment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.views.AddSegment.xaml
+build_metadata.AdditionalFiles.TargetPath = views\AddSegment.xaml
+build_metadata.AdditionalFiles.RelativePath = views\AddSegment.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/views/Categoria.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.views.Categoria.xaml
+build_metadata.AdditionalFiles.TargetPath = views\Categoria.xaml
+build_metadata.AdditionalFiles.RelativePath = views\Categoria.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = views\HomePage.xaml
+
+[C:/Users/jarauz/source/repos/WAP2.1/WAP2.1/views/Segmento.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = WAP2._1.views.Segmento.xaml
+build_metadata.AdditionalFiles.TargetPath = views\Segmento.xaml
+build_metadata.AdditionalFiles.RelativePath = views\Segmento.xaml

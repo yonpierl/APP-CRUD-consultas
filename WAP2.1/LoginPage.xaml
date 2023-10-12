@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WAP2._1.LoginPage"
+             Title="LoginPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Image
+				Source="user.png"
+				HorizontalOptions="CenterAndExpand"
+				HeightRequest="100" 
+				WidthRequest="100"
+				/>
+            <Entry
+				Placeholder="Nombre de Usuario"
+				x:Name="UserEntry"
+                WidthRequest="250"
+                Text="{Binding UserName}"
+				/>
+            <Entry
+				Placeholder="Constraseña"
+				x:Name="ContraEntry"
+                WidthRequest="250"
+                IsPassword="True"
+                Text="{Binding Password}"
+				/>
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                TextColor="Blue"
+                IsEnabled="True"
+                
+                >
+                ¿No estas registrado?
+
+            </Label>
+
+            <Button
+                Text="Iniciar Sesion"
+				x:Name="SesionBtn"
+                WidthRequest="250"
+                Command="{Binding LoginCommand}"
+                />
+
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+</ContentPage>
